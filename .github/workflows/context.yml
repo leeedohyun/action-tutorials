@@ -1,8 +1,9 @@
 name: Context testing
+
 on: push
 
 jobs:
-  dump_contexts_to_log:
+  one:
     runs-on: ubuntu-16.04
     steps:
       - name: Dump GitHub context
